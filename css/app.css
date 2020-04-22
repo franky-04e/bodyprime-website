@@ -1,3 +1,44 @@
-body{
-    margin: 100px;
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+nav{
+    display:flex; 
+    justify-content: space-around;
+    align-items:center;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar_logo{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+.prime{
+    color: rgb(9, 112, 37);
+}
+
+.navbar{
+    background-color: rgb(98, 237, 98);
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
 }
