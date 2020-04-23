@@ -53,6 +53,8 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     font-family: 'Poppins', sans-serif;
     background-color: rgb(98, 237, 98);
+    min-height: 200px;
+    color:white;
 }
 
 #footer_fb{
