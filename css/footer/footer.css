@@ -1,0 +1,34 @@
+
+#footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(98, 237, 98);
+    min-height: 200px;
+    color:white;
+}
+
+#footer_fb{
+    align-self: center;
+    justify-self: center;
+}
+
+#footer_ig{
+    align-self: center;
+    justify-self: center;
+}
+
+#footer_indirizzo{
+    align-self: center;
+    justify-self: center;
+}
+
+#footer_chiamaci{
+    align-self: center;
+    justify-self: center;
+}
+
+#footer_orari{
+    align-self: center;
+    justify-self: center;
+}
