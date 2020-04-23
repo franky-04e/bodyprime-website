@@ -7,19 +7,43 @@ body {
     display: grid;
     grid-template-rows: auto;
 }
-#container{
+
+.container{
+    font-family: 'Poppins', sans-serif;
+}
+
+.corsi{
+    text-align: center;
+    margin: 30px;
+}
+
+.grid{
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 1rem;
+    padding: 20px;
 }
 
 #chi-siamo{
     font-family: 'Poppins', sans-serif;
+    position: relative;
 }
 
-#chi-siamo_desc{
-    padding: 0 0 0 10px;
+.chi-siamo_testo{
+    position: absolute;
+    bottom: 30%;
+    left: 16px;
+    font-size: 40px;
+    color: white;
+    color:rgba(110, 241, 127);
 }
 
+.chi-siamo_testo h1{
+    font-weight: 900;
+}
+.chi-siamo_testo h2{
+    font-weight: 100;
+}
 
 #corsi{
     font-family: 'Poppins', sans-serif;
@@ -27,24 +51,34 @@ body {
 
 #contatti{
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: rgb(98, 237, 98);
 }
 
 #istruttori{
     font-family: 'Poppins', sans-serif;
 }
 
-/*** Card ***/
-.card{
-    border: solid 1px black;
+/******  *** Sala Attrezzi *** ********/
+#corsi_sala_attrezzi{
+    background: url('../../assets/sala_attrezzi.jpg') no-repeat;
 }
+/******  *** ************ *** ********/
+
+/********** Card **********/
+.card{
+    text-align: center;
+}
+/*** *************** ***/
 
 /******  Ridimesione immagni  ******/
 #chi-siamo_img{
-    background-image: linear-gradient(to bottom right, rgba(110, 241, 127, 0.294), rgba(153, 236, 145, 0.192)),url('../../assets/allenati_con_noi.jpg');
+    background: linear-gradient(to bottom right, rgba(110, 241, 127, 0.294), rgba(153, 236, 145, 0.192)),url('../../assets/allenati_con_noi.jpg');
     width: 100%;
     height: 500px;
     background-position: center;
     background-size: cover;
+    opacity: 0.8;
 }
 /******  ********  ******/
 
