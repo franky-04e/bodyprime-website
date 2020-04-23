@@ -8,22 +8,7 @@ body {
     grid-template-rows: auto;
 }
 
-.container{
-    font-family: 'Poppins', sans-serif;
-}
-
-.corsi{
-    text-align: center;
-    margin: 30px;
-}
-
-.grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    gap: 1rem;
-    padding: 20px;
-}
-
+/****************************** CHI SIAMO ***********************************************/
 #chi-siamo{
     font-family: 'Poppins', sans-serif;
     position: relative;
@@ -45,7 +30,6 @@ body {
     font-weight: 100;
 }
 
-/******  Ridimesione immagni  ******/
 #chi-siamo_img{
     background: linear-gradient(to bottom right, rgba(110, 241, 127, 0.294), rgba(153, 236, 145, 0.192)),url('../../assets/allenati_con_noi.jpg');
     width: 100%;
@@ -54,4 +38,28 @@ body {
     background-size: cover;
     opacity: 0.8;
 }
-/******  ********  ******/
+/***********************************************************************************/
+
+/************************************* BENVENUTO ***********************************/
+.benvenuto{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+.benvenuto_titolo{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom:40px;
+}
+.benvenuto_paragrafo_1{
+    font-size: 20px;
+}
+
+
+
+
+
+/************************************************************************************/
