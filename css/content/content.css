@@ -90,15 +90,18 @@ body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     padding: 40px;
+    background-color: rgba(110, 241, 127);
 }
 
 .corsi_titolo{
     font-size: 40px;
     margin-top: 10px;
     margin-bottom:40px;
+    color: white;
 }
 .corsi_paragrafo{
     font-size: 20px;
+    color: white;
 }
 
 /************************************************************************************/
