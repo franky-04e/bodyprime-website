@@ -1,5 +1,5 @@
 var i = 0;
-var txt = 'ALLENATI CON NOI!'; /* The text */
+var txt = 'Allenati con noi!'; /* The text */
 var speed = 180; /* The speed/duration of the effect in milliseconds */
 
 function typeWriter() {

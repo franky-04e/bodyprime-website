@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palestra BodyPrime</title>
+    
+    <!-- CSS -->
     <link rel="stylesheet" type="text/css" href="css/navbar/navbar.css">
     <link rel="stylesheet" type="text/css" href="css/footer/footer.css">
     <link rel="stylesheet" type="text/css" href="css/content/content.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+    <!-- Font Google-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" 
+    rel="stylesheet">
+
+    <!-- CSS AOS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -38,12 +46,12 @@
     <section id="chi-siamo">
         <div id="chi-siamo_img"></div>
         <div class="chi-siamo_testo">
-            PALESTRA BODYPRIME <br> <span id="animazione"></span> 
+           <span class"animazione_statica"> Palestra BodyPrime </span> <span id="animazione"></span> 
         </div>
     </section>
 
     <!-- Benvenuto -->
-    <section class="benvenuto">
+    <section class="benvenuto" data-aos="fade-up">
         <h1 class="benvenuto_titolo">Benvenuto in BodyPrime</h1>
 
         <p class="benvenuto_paragrafo">BodyPrime è la palestra a Palermo a due passi dall’Università. <br>
@@ -52,7 +60,7 @@
     </section>
 
     <!-- CORSI -->
-    <section class="corsi">
+    <section class="corsi"  data-aos="fade-up">
         <h1 class="corsi_titolo">Corsi</h1>
     
         <p class="corsi_paragrafo">Tantissimi corsi tra cui scegliere, allenamenti personalizzati, simpatia, competenza e professionalità.</p>
@@ -71,7 +79,7 @@
     </section>
 
     <!--  -->
-    <section class="benvenuto">
+    <section class="benvenuto"  data-aos="fade-up">
         <h1 class="benvenuto_titolo">Istruttori</h1>
     
         <p class="benvenuto_paragrafo_1">Tantissimi corsi tra cui scegliere, allenamenti personalizzati, simpatia, competenza e professionalità.</p>
@@ -83,7 +91,7 @@
 
 
     <!--Footer-->
-    <footer id="footer">
+    <footer id="footer"  data-aos="fade-up">
             <!-- Social -->
             <div id="footer_fb" >
                 facebook
@@ -110,7 +118,13 @@
     </footer>
 
 
+    <!-- JS-->
     <script src="js/navbar/navbar.js"></script>
     <script src="js/animazioni/testo.js"></script>
+    <!-- JS AOS-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
