@@ -8,6 +8,17 @@ body {
     grid-template-rows: auto;
 }
 
+/****************************** CARD ***********************************************/
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.card_sala{
+    
+}
+
 /****************************** CHI SIAMO ***********************************************/
 #chi-siamo{
     font-family: 'Poppins', sans-serif;
@@ -16,18 +27,17 @@ body {
 
 .chi-siamo_testo{
     position: absolute;
-    bottom: 30%;
-    left: 16px;
-    font-size: 40px;
-    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
     color:rgba(110, 241, 127);
 }
 
-.chi-siamo_testo h1{
-    font-weight: 900;
-}
-.chi-siamo_testo h2{
-    font-weight: 100;
+.animazione{
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #chi-siamo_img{
@@ -37,11 +47,37 @@ body {
     background-position: center;
     background-size: cover;
     opacity: 0.8;
+    position:relative;
 }
-/***********************************************************************************/
 
 /************************************* BENVENUTO ***********************************/
 .benvenuto{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.benvenuto_titolo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    
+}
+
+.benvenuto_paragrafo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/************************************* CORSI ***********************************/
+.corsi{
     display:grid;
     grid-template-rows: 1fr 1fr 1fr;
     font-family: 'Poppins', sans-serif;
@@ -49,17 +85,13 @@ body {
     padding: 40px;
 }
 
-.benvenuto_titolo{
+.corsi_titolo{
     font-size: 40px;
     margin-top: 10px;
     margin-bottom:40px;
 }
-.benvenuto_paragrafo_1{
+.corsi_paragrafo{
     font-size: 20px;
 }
-
-
-
-
 
 /************************************************************************************/
