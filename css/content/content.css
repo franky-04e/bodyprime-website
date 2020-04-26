@@ -53,7 +53,9 @@ body {
 }
 
 .card_nome{
-    font-size: 20px;
+    font-size: 30px;
+    padding:10px;
+    background-color: rgba(56, 58, 56, 0.322);
 }
 
 .card_nome a{
@@ -81,6 +83,11 @@ body {
     text-decoration: none;
     color: rgba(110, 241, 127) ;
 }
+
+.scopri_btn a:hover{
+    cursor: pointer;
+}
+
 
 .card_nome:hover{
     font-size: 30px;
@@ -175,4 +182,70 @@ body {
     color: white;
 }
 
-/************************************************************************************/
+/************************************* ISTRUTTORI ***********************************/
+.istruttori{
+    display:grid;
+    grid-template-rows: 1fr 1fr;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 70px;
+}
+
+.istruttori_titolo{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom:10px;
+    color: black;
+}
+.istruttori_paragrafo{
+    font-size: 20px;
+    color: black;
+}
+
+.scopri_btn_istr{
+    background: rgba(110, 241, 127) ;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    border: none;
+    padding: 5px;
+    text-align: center;
+}
+
+.scopri_btn_istr a{
+    text-decoration: none;
+    color: white;
+}
+.scopri_btn_istr a:hover{
+    cursor: pointer;
+}
+
+.pt_sala{
+    background: linear-gradient(to bottom left, rgba(110, 241, 127, 0.15), rgba(153, 236, 145, 0.3)),url('../../assets/pt_1.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pt_pilates{
+    background: linear-gradient(to bottom left, rgba(110, 241, 127, 0.15), rgba(153, 236, 145, 0.3)),url('../../assets/pt_3.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pt_crossfit{
+    background: linear-gradient(to bottom left, rgba(110, 241, 127, 0.15), rgba(153, 236, 145, 0.3)),url('../../assets/pt_2.png')no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
