@@ -149,25 +149,18 @@ body {
 }
 
 .chi-siamo_testo{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
+    height:300px;
     transform: translate(-50%, -50%);
     font-size: 60px;
     color:rgba(110, 241, 127);
     background-color: rgba(56, 58, 56, 0.322);
-}
-
-#animazione{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-}
-.animazione_statica{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 #chi-siamo_img{
@@ -314,6 +307,9 @@ body {
     .bottone{
         display:none;
     }
+
+
+
     
 }
 
@@ -334,6 +330,7 @@ body {
         padding:10px;
         margin-bottom: 10px;
     }
+
 
     
    
