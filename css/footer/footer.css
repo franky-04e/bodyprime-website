@@ -76,3 +76,28 @@ a{
     }
     
 }
+
+@media screen and (max-width: 1087px) {
+    #footer{
+        display:grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgba(110, 241, 127) ;
+        min-height: 200px;
+        color:white;
+        row-gap: 20px;
+    }
+
+    #footer_indirizzo{
+        font-size: 20px;
+    }
+
+    #footer_chiamaci{
+        font-size: 20px;
+    }
+    #footer_orari{
+        font-size: 20px;
+    }
+    
+}
