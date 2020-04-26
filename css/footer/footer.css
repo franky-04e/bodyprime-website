@@ -8,6 +8,8 @@
     color:white;
 }
 
+
+
 #footer_fb{
     align-self: center;
     justify-self: center;
@@ -21,14 +23,56 @@
 #footer_indirizzo{
     align-self: center;
     justify-self: center;
+    font-size: 18px;
+    padding:10px;
 }
 
 #footer_chiamaci{
     align-self: center;
     justify-self: center;
+    font-size: 18px;
+    padding:10px;
 }
 
 #footer_orari{
     align-self: center;
     justify-self: center;
+    font-size: 18px;
+    padding:10px;
+}
+.fa {
+    color: white !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*********************************** Responsive **************************************/
+
+@media screen and (max-width: 1500px) {
+    #footer{
+        display:grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgba(110, 241, 127) ;
+        min-height: 200px;
+        color:white;
+        row-gap: 20px;
+    }
+
+    #footer_fb{
+        margin-top:30px;
+    }
+    #footer_ig{
+        margin-top:30px;
+    }
+    #footer_chiamaci{
+        margin-bottom: 30px;
+    }
+    #footer_orari{
+        margin-bottom: 30px;
+    }
+    
 }
