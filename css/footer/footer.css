@@ -3,7 +3,7 @@
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(98, 237, 98);
+    background-color: rgba(110, 241, 127) ;
     min-height: 200px;
     color:white;
 }
