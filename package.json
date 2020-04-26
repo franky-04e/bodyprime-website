@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/franky-04/bodyprime-website/issues"
   },
-  "homepage": "https://github.com/franky-04/bodyprime-website#readme"
+  "homepage": "https://github.com/franky-04/bodyprime-website#readme",
+  "devDependencies": {
+    "sass": "^1.26.5"
+  }
 }
