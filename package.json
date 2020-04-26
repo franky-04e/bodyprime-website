@@ -1,0 +1,19 @@
+{
+  "name": "bodyprime",
+  "version": "1.0.0",
+  "description": "Sito web palestra BodyPrime ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franky-04/bodyprime-website.git"
+  },
+  "author": "Giancarlo Urone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franky-04/bodyprime-website/issues"
+  },
+  "homepage": "https://github.com/franky-04/bodyprime-website#readme"
+}
